@@ -19,10 +19,10 @@ const axios = require('axios')
 
 axios({
   method: 'post',
-  url: '/user/12345',
+  url: '/user/testUrl',
   data: {
-    firstName: 'Yee',
-    lastName: 'Huang'
+    firstName: 'Hao',
+    lastName: 'Pang'
   }
 })
 ```
